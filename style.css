@@ -1,0 +1,53 @@
+/* i have been used inline style type of coding, the ids are used for the fulfillment of the questions*/
+
+body{	font-family:calibri;
+		font-weight:bold;
+        letter-spacing:0.03em;
+        box-sizing:border-box;}
+
+#main {display:flex;
+		flex-direction:column;
+        justify-content:center; 
+        align-items:center;
+        background-color:#d3d3d3;
+        border-radius:25px;}
+  
+  
+#title {flex:0 1 100%; 
+		margin:0 0 1em;}
+  
+#img-div { flex:0 1 100%; 
+			display:flex;
+            flex-direction:column;}
+   
+   /*All imgs child of the parent img-div*/
+#image {
+  max-width:50%;
+  flex:0 1 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:25px;
+  }
+  
+#img-caption {font-style:italic;
+				color:black;
+                text-align:center;}
+  
+  /*All ul which are childern of the parent tribute-info*/
+  
+#ul1
+{list-style:disc;
+  }
+
+#tribute-info{flex:0 1 100%;}
+
+#tribute-link{text-decoration:none;
+			   color:blue;
+               font-style:italic;
+               text-align:center;
+               padding-bottom:40px;}
+  
+#tribute-link:hover {
+  color:red;
+  }
